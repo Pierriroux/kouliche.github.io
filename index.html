@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
+  <body onload="init()">
     <ul class="navbar">
 	<li>
 		<a href="index.html">Home</a>
@@ -15,11 +15,16 @@
 	<li>
                 <a href="">Jambon</a>
 	</li>
+	<li>
+		<button type="button" onclick="greet()">Hello</button>
+		<script src="script.js"></script>
+	</li>
    </ul>
     <h1>Here is our heading</h1>
     <p>paragraphe 1</p>
     <p>paragraphe 2</p>
     <p>paragraphe 3</p>
     <img src="https://efrei.lab.iisg.agh.edu.pl/web-lab4-php/334a6f3224c2f188c55a318e1c444e1401bc33fc/giphy.gif"height=400/>
-  </body>
+    <img id="first" src="flower1.png" height=100/> 
+ </body>
 </html>
