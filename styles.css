@@ -1,1 +1,7 @@
-
+body {
+  margin-left: 300px;
+  background-color: #ffcc99;
+}
+p {
+  color: green;
+}
