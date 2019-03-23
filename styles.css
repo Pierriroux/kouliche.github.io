@@ -18,5 +18,12 @@ ul.navbar {
   width: 150px;
   list-style-type: none;
 }
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
 
 
