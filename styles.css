@@ -5,3 +5,9 @@ body {
 p {
   color: green;
 }
+p.para1 {
+ color: red; 
+}
+p.para2 {
+ color: red; 
+}
