@@ -18,6 +18,15 @@ ul.navbar {
   width: 150px;
   list-style-type: none;
 }
+ul.navbar li {
+  margin: 5px 0;
+  padding: 5px;
+  border-right: 1px solid #17252a;
+  border-top: 1px solid #17252a;
+  border-left: 10px solid #17252a;
+  border-bottom: 1px solid #17252a;
+}
+
 a:link {
   color: white;
 }
