@@ -7,15 +7,17 @@ p {
 }
 #para1 {
  color: red; 
+ font-size: 26px;
 }
 #para2 {
- color: red; 
+ color: red;
+ font-size: 20px; 
 }
 ul.navbar {
   position: absolute;
   top: 30px;
   left: 0px;
-  width: 150px;
+  width: 227px;
   list-style-type: none;
 }
 ul.navbar li {
@@ -33,6 +35,38 @@ a:link {
 
 a:visited {
   color: white;
+}
+#catty {
+	text-align: right;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+#catim {
+	border: none;
+}
+#titlecat {
+	 color: black;
+ font-size: 16px; 
+}
+#foldex {
+	 color: black;
+ font-size: 16px; 
+}
+#scottish{
+	 color: black;
+ font-size: 16px; 
+}
+#york{
+	 color: black;
+ font-size: 16px; 
+}
+#bengal{
+	 color: black;
+ font-size: 16px; 
 }
 
 
