@@ -5,9 +5,9 @@ body {
 p {
   color: green;
 }
-p.para1 {
+#para1 {
  color: red; 
 }
-p.para2 {
+#para2 {
  color: red; 
 }
