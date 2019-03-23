@@ -11,3 +11,12 @@ p {
 #para2 {
  color: red; 
 }
+ul.navbar {
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  width: 150px;
+  list-style-type: none;
+}
+
+
