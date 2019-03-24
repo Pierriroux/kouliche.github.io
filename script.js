@@ -13,7 +13,7 @@ function init(){
 	}
 	var changeSrc = function(event) {
 		if (event.target.src) {	
-			if (event.target.src == "uno-card-back.jpg") {
+			if (event.target.src.includes("uno-card-back.jpg")) {
 				event.target.src = "carte-plus4.jpg";	
 			}
 			else{
