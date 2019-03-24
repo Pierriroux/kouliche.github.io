@@ -23,5 +23,19 @@ function init(){
 	  };
 	  
 	  document.getElementById("event").addEventListener("mouseover", changeSrc);
-
+function addItem(){
+	let list = document.createElement("li");
+	let put = document.getElementById("iput").value;
+	let str = document.createTextNode(put);
+	if(document.getElementById("important").checked)
+	{
+		list.style.color = "red";
+	}
+	if(document.getElementById("bought").checked)
+	{
+		list.style.textDecoration = "underline";
+	}
+	list.appendChild(str);
+	document.getElementById("shoplist").appendChild(list);
+}
 }
